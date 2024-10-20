@@ -6,7 +6,7 @@
     justify-content: center;
     margin: 1rem;
     font-family: Arial, sans-serif;
-    /* width: 100%; */
+ 
   }
 
  .toggle{
@@ -32,7 +32,7 @@
   
   .billing-toggle .active {
     background-color: white;
-    /* color: #007bff; */
+ 
   }
 
 
@@ -44,7 +44,7 @@
   }
 
 .bottom-div{
-  /* margin-top: 10rem; */
+
   height: 16%;
   color: gray;
 }
@@ -52,7 +52,7 @@
 .linegap{
   line-height: 200%;
   color: #6B7280;
-  padding-left: 1.5rem; /* Text aur bullet ke beech gap */
+  padding-left: 1.5rem; /* Text aur bullet gap */
   text-indent: -1.5rem;
   font-size: smaller;
 }
@@ -84,7 +84,7 @@
   
   .card h1 {
     font-size: 30px;
-    /* margin-bottom: 10px; */
+
     font-weight: 800;
   }
   
@@ -107,7 +107,7 @@
     color: gray;
     display: flex;
     align-items: flex-start;
-    /* margin-bottom: 1rem; */
+   
   }
   
   .card button {
@@ -115,7 +115,7 @@
     border: none;
     border-radius: 2rem;
     color: white;
-    /* background-color: #007bff; */
+  
     cursor: pointer;
   }
   .buttons{

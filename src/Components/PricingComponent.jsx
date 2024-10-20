@@ -7,7 +7,8 @@ const PricingComponent = () => {
   const [billingType, setBillingType] = useState("monthly");
 
   return (
-    <div className="container">
+    // main container
+    <div className="container"> 
       <div className="pricing-container">
         {/* Toggle between Monthly and Annual */}
         <div className="billing-toggle">
@@ -29,8 +30,8 @@ const PricingComponent = () => {
 
         {/* Pricing Cards */}
         <div className="pricing-cards">
-          {/* Trial Card */}
 
+          {/* Trial Card */}
           <div className="card trial">
             <h3>Trial</h3>
             <h1>Try now</h1>
@@ -106,7 +107,7 @@ const PricingComponent = () => {
                 <FontAwesomeIcon
                   icon={faCheckCircle}
                   style={{ marginRight: "1rem",marginTop:"0.6rem"}}
-                  //  className="icon-common"
+    
                 />
                 8,000 Credits
               </li>
@@ -134,7 +135,7 @@ const PricingComponent = () => {
             <hr
               style={{
                 borderTop: "2px solid #76A9FA",
-                // padding:"1rem",
+    
                 margin:"26px 0",
                 marginTop: "3rem",
               }}

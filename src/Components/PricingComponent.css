@@ -1,0 +1,138 @@
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    font-family: Arial, sans-serif;
+    /* width: 100%; */
+  }
+
+ .toggle{
+    padding: 0.2rem;
+ } 
+
+  .billing-toggle {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #E1EFFE;
+    border: none;
+    border-radius: 0.2rem;
+    
+  }
+  
+  .billing-toggle button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #E1EFFE;
+    cursor: pointer;
+  }
+  
+  .billing-toggle .active {
+    background-color: white;
+    /* color: #007bff; */
+  }
+
+
+  .pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 80%;
+  }
+
+.bottom-div{
+  /* margin-top: 10rem; */
+  height: 16%;
+  color: gray;
+}
+
+.linegap{
+  line-height: 200%;
+  color: #6B7280;
+  padding-left: 1.5rem; /* Text aur bullet ke beech gap */
+  text-indent: -1.5rem;
+  font-size: smaller;
+}
+
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    min-height: 500px;
+  }
+  
+  .trial, .growth, .booster, .enterprise {
+    background-color: white;
+    width: 27%;
+  }
+  
+  .booster {
+    background: linear-gradient(180deg, #1E429F 0%, #0B1839 100%);
+    color: white;
+    width: 25%;
+  }
+
+  #btn-white{
+    background-color: white;
+  }
+  
+  
+  .card h1 {
+    font-size: 30px;
+    /* margin-bottom: 10px; */
+    font-weight: 800;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    line-height: 200%;
+    
+  }
+
+  .card p{
+    font-size:x-small;
+    margin-top: -0.2rem;
+    color: #6B7280;
+  }
+  
+  .card ul li {
+    font-size: small;
+    color: gray;
+    display: flex;
+    align-items: flex-start;
+    /* margin-bottom: 1rem; */
+  }
+  
+  .card button {
+    padding: 10px;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    /* background-color: #007bff; */
+    cursor: pointer;
+  }
+  .buttons{
+    background-color: #1A56DB;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 2px; 
+  }
+  
+  .icon-common {
+    color: black;
+    margin-right: 1rem;
+    margin-top: 0.6rem;
+  }
+
+ 
